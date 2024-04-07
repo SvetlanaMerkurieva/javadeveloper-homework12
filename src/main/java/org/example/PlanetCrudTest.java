@@ -22,12 +22,13 @@ public class PlanetCrudTest {
 
         System.out.println("Відкрився рейс ще на одну планету - Венеру");
         Planet newPlanet = new Planet();
+        newPlanet.setId("VEN");
         newPlanet.setName("Venera");
         planetsTable.createPlanet(newPlanet);
         System.out.println(newPlanet);
 
-        System.out.println("Планета з id = 4: ");
-        Planet planetById = planetsTable.getPlanetById(4L);
+        System.out.println("Планета з id = SAT: ");
+        Planet planetById = planetsTable.getPlanetById("SAT");
         System.out.println(planetById);
 
 
@@ -37,7 +38,7 @@ public class PlanetCrudTest {
         System.out.println(planetById);
 
         System.out.println("Рейси на і з планети з id = 1 (Марс) скасовано");
-        planetsTable.deletePlanetById(1L);
+        planetsTable.deletePlanetById("MARS");
 
         System.out.println("Оновлена таблиця планет: ");
         List<Planet> planetsAll = planetsTable.getAllPlanets();

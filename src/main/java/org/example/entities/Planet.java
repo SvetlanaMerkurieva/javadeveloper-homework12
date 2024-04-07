@@ -1,20 +1,23 @@
 package org.example.entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Pattern;
 import lombok.Getter;
+import org.hibernate.validator.constraints.Length;
 
 @Getter
 @Entity
 @Table(name = "planet")
 public class Planet {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    @Pattern(regexp = "^[A-Z0-9]+$")
+    private String id;
 
-    @Column(length = 500, nullable = false)
+    @Column
+    @Length(min = 1, max = 500, message = "Planet's name must be between 1 and 500 characters")
     private  String name;
 
-    public void setId(long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

@@ -2,6 +2,7 @@ package org.example.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;
+import org.hibernate.validator.constraints.Length;
 
 @Getter
 @Entity
@@ -11,7 +12,8 @@ public class Client {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column(length = 200, nullable = false)
+    @Column
+    @Length(min = 3, max = 200, message = "Client's name must be between 3 and 200 characters")
     private  String name;
 
     public void setId(long id) {

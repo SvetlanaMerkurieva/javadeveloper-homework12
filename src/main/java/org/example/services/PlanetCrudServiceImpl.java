@@ -48,14 +48,14 @@ public class PlanetCrudServiceImpl implements PlanetCrudService {
     }
 
     @Override
-    public Planet getPlanetById(Long planetId) {
+    public Planet getPlanetById(String planetId) {
         try (Session session = HibernateUtils.getInstance().getSessionFactory().openSession()) {
             return session.get(Planet.class, planetId);
         }
     }
 
     @Override
-    public void deletePlanetById(Long planetId) {
+    public void deletePlanetById(String planetId) {
         try (Session session = HibernateUtils.getInstance().getSessionFactory().openSession()) {
             Transaction transaction = session.beginTransaction();
             Planet existing = session.get(Planet.class, planetId);

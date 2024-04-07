@@ -8,6 +8,6 @@ public interface PlanetCrudService {
     Planet createPlanet(Planet planet);
     Planet updatePlanet(Planet planet);
     List<Planet> getAllPlanets();
-    Planet getPlanetById(Long planetId);
-    void deletePlanetById(Long planetId);
+    Planet getPlanetById(String planetId);
+    void deletePlanetById(String planetId);
 }

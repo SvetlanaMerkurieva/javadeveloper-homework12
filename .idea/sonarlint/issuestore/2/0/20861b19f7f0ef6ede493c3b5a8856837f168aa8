@@ -1,12 +1,12 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(ÿ¶†Œÿÿÿÿÿ8õ£›ë1J$0dfe5af7-c52f-43bb-8c45-d2c2752db6f4
-m	java:S106"+Replace this use of System.out by a logger.(„Şİ8ø£›ë1J$cd917520-11bd-4185-b381-9e1d6a0c28e9
-m	java:S106"+Replace this use of System.out by a logger.(‹á¥ë8ù£›ë1J$f932580c-f6f3-4044-8524-8ec6c1caf744
-m	java:S106"+Replace this use of System.out by a logger.(¯·ÀÔ8ú£›ë1J$a967ca04-a458-4b22-a1f1-581ad10eba77
-r	java:S106"+Replace this use of System.out by a logger.(¾Å‡ìúÿÿÿÿ8ú£›ë1J$9d00fc0e-9517-4ac7-9e15-6736df6ab321
-r	java:S106"+Replace this use of System.out by a logger.(ÕÀŒîûÿÿÿÿ8û£›ë1J$24b624f5-c6ed-4f6f-9460-e593cc5f905f
-m	java:S106""+Replace this use of System.out by a logger.(»¡™Ù8ü£›ë1J$7586045d-78f5-4fff-9406-3689678746c9
-r	java:S106%"+Replace this use of System.out by a logger.(ÕÀŒîûÿÿÿÿ8ü£›ë1J$b2001a04-00bf-4114-83e3-56dc1a8a774e
-m	java:S106'"+Replace this use of System.out by a logger.(µà˜È8ü£›ë1J$1abd27f6-e25c-4601-b634-73842f4435a1
-m	java:S106*"+Replace this use of System.out by a logger.(¡ıùÃ8›’›ë1J$137d0e27-3a46-41a9-ac1d-d58365d48997
-r	java:S106,"+Replace this use of System.out by a logger.(°ÿ„—üÿÿÿÿ8ï“›ë1J$c301b0e2-b7f0-4db4-9ad6-7cd27ae3a878
+r	java:S106"+Replace this use of System.out by a logger.(ÿ¶†Œÿÿÿÿÿ8Ò†àÍë1J$0a508314-7a06-4451-ac01-87e8d6772ccc
+m	java:S106"+Replace this use of System.out by a logger.(„Şİ8Ö†àÍë1J$54f0e97c-5e0a-423b-a267-1ae6e9f1e1ac
+m	java:S106"+Replace this use of System.out by a logger.(‹á¥ë8Ø†àÍë1J$dc6d0ce9-1d4f-46e0-b8cd-5291015fff16
+m	java:S106"+Replace this use of System.out by a logger.(¯·ÀÔ8Ú†àÍë1J$3c394a59-b552-40ac-8f7f-5897928dadba
+r	java:S106"+Replace this use of System.out by a logger.(”¤ËÃüÿÿÿÿ8Û†àÍë1J$742ba967-b7bc-4336-9a2d-571edf4679b7
+r	java:S106 "+Replace this use of System.out by a logger.(ÕÀŒîûÿÿÿÿ8İ†àÍë1J$e1d8e1e5-6daf-46ff-b425-29a1299d9a42
+m	java:S106#"+Replace this use of System.out by a logger.(»¡™Ù8İ†àÍë1J$330faabc-bdce-43e4-8241-bf9a205da2f2
+r	java:S106&"+Replace this use of System.out by a logger.(ÕÀŒîûÿÿÿÿ8ß†àÍë1J$a682f834-9e07-46ed-9869-a9ea24ebaf72
+m	java:S106("+Replace this use of System.out by a logger.(µà˜È8ß†àÍë1J$b25a2fbd-3284-4ffb-99ea-d40f188990fd
+m	java:S106+"+Replace this use of System.out by a logger.(¡ıùÃ8à†àÍë1J$95d21bd1-235b-40bc-8450-5917be5ffa46
+r	java:S106-"+Replace this use of System.out by a logger.(°ÿ„—üÿÿÿÿ8â†àÍë1J$b5515823-3164-4528-ba4f-34aed311c137
